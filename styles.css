@@ -1,4 +1,4 @@
-.header {
+.header, .hero {
     background-color: #1f2937;
     display: flex;
     color: #f9faf8;
@@ -15,3 +15,8 @@
     color: #e5e7eb;
     margin-left: auto;
 }
+
+.hero {
+    padding: 28px;
+}
+
