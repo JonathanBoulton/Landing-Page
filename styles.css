@@ -25,15 +25,23 @@
 
 #hero {
     display: flex;
+    align-items: center;
     color: #f9faf8;
-    padding: 28px;
-    gap: 28px;
+    gap: 250px;
+    margin: 28px;
+    padding: 100px 0px;
+
+}
+
+.numbered-heading {
+    margin: 28px;
 }
 
 #whoami {
     display: flex;
-    color: #f9faf8;
     align-items: center;
-    padding: 8px; 
+    color: #f9faf8;
+    margin: 28px;
+    gap: 8px;
 }
 
