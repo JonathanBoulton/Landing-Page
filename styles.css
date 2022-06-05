@@ -3,7 +3,7 @@
     color: #e5e7eb;
 }
 
-.header, .hero, #whoami {
+.header {
     display: flex;
     color: #f9faf8;
     align-items: center;
@@ -20,8 +20,18 @@
     margin-left: auto;
 }
 
-.hero {
+#hero {
+    display: flex;
+    color: #f9faf8;
     padding: 28px;
-    justify-content: space-evenly;
+    gap: 28px;
+}
+
+
+#whoami {
+    display: flex;
+    color: #f9faf8;
+    align-items: center;
+    padding: 8px; 
 }
 
