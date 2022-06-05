@@ -8,16 +8,19 @@
     color: #f9faf8;
     align-items: center;
     padding: 8px;
+    justify-content: space-between;
 }
 
 .headerlogo {
     font-size: 24px;
 }
 
-.headerlink {
+.header ol {
     font-size: 18px;
     color: #e5e7eb;
-    margin-left: auto;
+    display: flex;
+    gap: 28px;
+     
 }
 
 #hero {
@@ -26,7 +29,6 @@
     padding: 28px;
     gap: 28px;
 }
-
 
 #whoami {
     display: flex;
